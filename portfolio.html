@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+  <!-- header start -->
+  <div id="header">
+      <div class="container">
+        <nav>
+           <p class="logo">Portfolio.com</p>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+        <p>Front end developer</p>
+        <h1>Hi, I am <span> Nick </span><br>Jeus from India</h1>
+        </div>
+      </div>
+  </div>
+<!------------about----------->
+ <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="img/folio2.png" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit neque nisi, quis quo mollitia voluptatum aliquam corporis sed veniam quam iure perspiciatis dolore, sunt, eligendi sint repudiandae recusandae quidem omnis ratione perferendis cum in fuga tempore veritatis! Laudantium, quo distinctio! Commodi unde soluta sed.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>web Developer</span><br>Front end developer</li>
+                        <li><span>UI/Ux</span><br>Web Interfaces</li>
+                        <li><span>Coder</span><br>C/C++ language</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2023-current</span><br>Front end developer</li>
+                        <li><span>2021-2022</span><br>Project- SMS spam detection </li>
+                        <li><span>2021-2020</span><br>Student at Bvcoew</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2023</span><br>Student at Bvcoew</li>
+                        <li><span>2022</span><br>Certified web developer</li>
+                        <li><span>2020</span><br>SSC complete(80%)</li>
+                        <li><span>2018</span><br>HSC Complete(90%)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+ </div>
+
+
+ <!-- ---------Services--------- -->
+
+ <div id="services">
+    <div class="container">
+        <h1 class="sub-title">Services</h1> 
+        <div class="services-list">
+            <div>
+                <h2>Web Developer</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero tempore quasi voluptates commodi, maiores aspernatur blanditiis repellat quas, iure cupiditate rem sed dolore accusantium consectetur corporis repudiandae. Esse, architecto corporis.</p>
+                <a href="#">learn more </a>
+            </div>
+            <div>
+                <h2>Ui/ux Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero tempore quasi voluptates commodi, maiores aspernatur blanditiis repellat quas, iure cupiditate rem sed dolore accusantium consectetur corporis repudiandae. Esse, architecto corporis.</p>
+                <a href="#">learn more </a>
+            </div>
+            <div>
+                <h2>App Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero tempore quasi voluptates commodi, maiores aspernatur blanditiis repellat quas, iure cupiditate rem sed dolore accusantium consectetur corporis repudiandae. Esse, architecto corporis.</p>
+                <a href="#">learn more </a>
+            </div>
+        </div>
+    </div>
+ </div>
+
+ <!------------portfolio----------->
+ <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My work</h1> 
+        <div class="work-list">
+            <div class="work">
+                <img src="img/work1.png">
+                <div class="layer">
+                    <h3>Social Media</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, accusamus.</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/work-5.png">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, accusamus.</p>
+                    
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/work4.png">
+                <div class="layer">
+                    <h3>Shopping app</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, accusamus. </p>
+                    
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+ </div>
+
+ <!---------contact-------->
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact ME</h1>
+                <p>contact@example.com</p>
+                <p>0123456789</p>
+               
+                <a href="Notes/Resume.pdf.docx" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right"></div>
+            <form action>
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your message" ></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+        </div>
+    </div>
+ </div>
+
+
+ <script>
+
+   var tablinks = document.getElementsByClassName("tab-links");
+   var tabcontents = document.getElementsByClassName("tab-contents");
+
+   function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+    
+   }
+ </script>
+
+
+    
+</body>
+</html>
